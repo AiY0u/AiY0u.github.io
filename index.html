@@ -60,7 +60,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2025-07-21 14:56:20',
+  postUpdate: '2025-07-21 15:13:01',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -245,22 +245,25 @@ if (true) {
         Python
       </a>
     </div>
-    </div><div class="category-bar-next" id="category-bar-next" onclick="anzhiyu.scrollCategoryBarToRight()"><i class="anzhiyufont anzhiyu-icon-angle-double-right"></i></div><a class="catalog-more" href="/categories/">更多</a></div></div></div><div class="recent-post-item lastestpost-item" onclick="pjax.loadUrl('/2025/07/20/ECC%E7%9A%84%E6%95%B0%E5%AD%A6%E9%A1%BB%E7%9F%A5/')"><div class="recent-post-info no-cover"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><span class="newPost">最新</span><a class="unvisited-post" href="/2025/07/20/ECC%E7%9A%84%E6%95%B0%E5%AD%A6%E9%A1%BB%E7%9F%A5/" title="ECC的数学须知">未读</a></div><a class="article-title" href="/2025/07/20/ECC%E7%9A%84%E6%95%B0%E5%AD%A6%E9%A1%BB%E7%9F%A5/" title="ECC的数学须知">ECC的数学须知</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-07-20T07:13:22.000Z" title="发表于 2025-07-20 15:13:22" time="2025-07-20 15:13:22">2025-07-20</time><time class="time_hidden" datetime="2025-07-21T06:55:41.356Z" title="更新于 2025-07-21 14:55:41" time="2025-07-21 14:55:41">2025-07-21</time></span></div><div class="content">a
+    </div><div class="category-bar-next" id="category-bar-next" onclick="anzhiyu.scrollCategoryBarToRight()"><i class="anzhiyufont anzhiyu-icon-angle-double-right"></i></div><a class="catalog-more" href="/categories/">更多</a></div></div></div><div class="recent-post-item lastestpost-item" onclick="pjax.loadUrl('/2025/07/20/ECC%E7%9A%84%E6%95%B0%E5%AD%A6%E9%A1%BB%E7%9F%A5/')"><div class="recent-post-info no-cover"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><span class="newPost">最新</span><a class="unvisited-post" href="/2025/07/20/ECC%E7%9A%84%E6%95%B0%E5%AD%A6%E9%A1%BB%E7%9F%A5/" title="ECC的数学须知">未读</a></div><a class="article-title" href="/2025/07/20/ECC%E7%9A%84%E6%95%B0%E5%AD%A6%E9%A1%BB%E7%9F%A5/" title="ECC的数学须知">ECC的数学须知</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-07-20T07:13:22.000Z" title="发表于 2025-07-20 15:13:22" time="2025-07-20 15:13:22">2025-07-20</time><time class="time_hidden" datetime="2025-07-21T07:12:43.618Z" title="更新于 2025-07-21 15:12:43" time="2025-07-21 15:12:43">2025-07-21</time></span></div><div class="content">a
 椭圆曲线密码学(Elliptic Curve Cryptography,ECC)
 是一种基于椭圆曲线数学理论的非对称加密算法。它和我们已经学习过的RSA一样，依靠陷门函数来保证加密算法的安全性。
 要学习ECC，我们先要学习一些前置知识
-椭圆曲线虽然名叫椭圆曲线，但我们在研究它时往往看不到椭圆
+椭圆曲线
+虽然名叫椭圆曲线，但我们在研究它时往往看不到椭圆
 它并非指椭圆的边界线，而是指满足特定方程的曲线。
-最基础的研究场景是复数域，在其中椭圆曲线的标准方程为：y²=x³+ax+b
+最基础的研究场景是复数域，在其中椭圆曲线的标准方程为：
+y²=x³+ax+b
 a和b为常数，且满足Δ=−16(4a³+27b²)≠0(非奇异条件)
 而在实际应用中，椭圆曲线一般定义在有限域上，此时该方程在有限域内进行。
 我们知道有限域内的元素是有限个，因此椭圆曲线作为一种点的集合，其中的点也是有限个。
 同时，该椭圆曲线满足非奇异条件确保曲线上每个点都有唯一一条切线（后面会用到）
-点加法我们在椭圆曲线所在的有限域上定义运算“点加法”
+点加法
+我们在椭圆曲线所在的有限域上定义运算“点加法”
 倘若我们在椭圆曲线上寻找两个点P和Q，做直线PQ与椭圆曲线交于第三点R，然后再对R的y值取相反数，得到R’
 那我们就说P+Q = R’
 那么如果出现直线PQ与椭圆曲线没有第三个交点呢？
-我们定义一个无穷远的点O，作为该 ...</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/07/20/python-pwntools%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/')"><div class="recent-post-info no-cover"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><div class="article-categories-original">Python</div><a class="unvisited-post" href="/2025/07/20/python-pwntools%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/" title="python pwntools库使用指北">未读</a></div><a class="article-title" href="/2025/07/20/python-pwntools%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/" title="python pwntools库使用指北">python pwntools库使用指北</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-07-20T02:09:24.000Z" title="发表于 2025-07-20 10:09:24" time="2025-07-20 10:09:24">2025-07-20</time><time class="time_hidden" datetime="2025-07-20T02:47:24.192Z" title="更新于 2025-07-20 10:47:24" time="2025-07-20 10:47:24">2025-07-20</time></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/pwntools/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>pwntools</span></a></span></div><div class="content">在做Cryptohack中迪菲赫尔曼协议部分时，题目需要我们连接到某个端口，获取和发送数据
+我们定义一个无穷远的点O， ...</div></div></div><div class="recent-post-item" onclick="pjax.loadUrl('/2025/07/20/python-pwntools%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/')"><div class="recent-post-info no-cover"><div class="recent-post-info-top"><div class="recent-post-info-top-tips"><div class="article-categories-original">Python</div><a class="unvisited-post" href="/2025/07/20/python-pwntools%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/" title="python pwntools库使用指北">未读</a></div><a class="article-title" href="/2025/07/20/python-pwntools%E5%BA%93%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/" title="python pwntools库使用指北">python pwntools库使用指北</a></div><div class="article-meta-wrap"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days" style="font-size: 15px; display:none"></i><span class="article-meta-label">发表于</span><time datetime="2025-07-20T02:09:24.000Z" title="发表于 2025-07-20 10:09:24" time="2025-07-20 10:09:24">2025-07-20</time><time class="time_hidden" datetime="2025-07-20T02:47:24.192Z" title="更新于 2025-07-20 10:47:24" time="2025-07-20 10:47:24">2025-07-20</time></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/pwntools/" event.cancelbubble onclick="window.event.cancelBubble=true;"><span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>pwntools</span></a></span></div><div class="content">在做Cryptohack中迪菲赫尔曼协议部分时，题目需要我们连接到某个端口，获取和发送数据
 此处应有做题记录，如果没有就是我忘了放
 pwntools库可以作为我们写解题脚本的一种选择
 这里只展示crypto中需要用到的功能
